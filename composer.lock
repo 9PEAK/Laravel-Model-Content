@@ -4,8 +4,48 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5bca48e56bbf3a25645858fcab9c285",
+    "content-hash": "f5b29c365a2f5698def19c04244443b0",
     "packages": [
+        {
+            "name": "caponica/amazon-mws-complete",
+            "version": "v0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/caponica/AmazonMwsComplete.git",
+                "reference": "bb7c78ffe1ef8134e2d635afe485be358071ca36"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/caponica/AmazonMwsComplete/zipball/bb7c78ffe1ef8134e2d635afe485be358071ca36",
+                "reference": "bb7c78ffe1ef8134e2d635afe485be358071ca36",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "CaponicaAmazonMwsComplete\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Morgan, Caponica",
+                    "homepage": "http://www.github.com/Caponica"
+                }
+            ],
+            "description": "Complete Amazon MWS PHP SDK, including all libraries",
+            "keywords": [
+                "amazon",
+                "mws"
+            ],
+            "time": "2016-04-13T01:48:11+00:00"
+        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
